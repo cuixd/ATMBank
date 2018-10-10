@@ -1,0 +1,28 @@
+
+用户类：
+类名  User
+属性  userid username card isadmin
+行为
+
+银行类
+类名  Bank
+属性  name userlist atm
+行为
+
+卡类
+类名  Card
+属性  id password balance status
+
+
+ATM类
+类名  ATM
+属性
+行为 管理员功能：开户，销户，锁定，解锁
+    普通用户功能： 查询、存款、取款、改密、转账、退出
+
+界面类
+类名 View
+属性
+行为 开始界面
+    功能界面
+    验证登录
